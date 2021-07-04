@@ -1,0 +1,16 @@
+
+// Override default variables before the import
+$body-bg: white;
+$light:#E5E5E5;
+$success: #264D9A;
+$dark: #091F4A;
+
+$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:  Montserrat, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:       $font-family-monospace !default;
+
+
+// Import Bootstrap and its default variables
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import '~bootstrap/scss/bootstrap.scss';
